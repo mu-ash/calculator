@@ -24,9 +24,9 @@
 
 void centertext()
 {
-	int  w = 480, h = 600;
+	int  w = 240, h = 400;
 	settextcolor(BLACK);
-	char str[] = "digital computer";
+	char str[] = "Calculator";
 
 	int hspace = (w - textwidth(str))/2;
 	int vspace = (h - textheight(str))/2;
